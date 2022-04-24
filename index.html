@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CryptoTrade</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!--Navbar-->
+    <nav>
+        <!--Left menu for desktop-->
+        <ul class="largemenu">
+            <li>
+                <a href="#page1" id="homelink">
+                    <svg class="logosvg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160.33 160.54">
+                        <g id="Layer_2" data-name="Layer 2"><g id="Layer_1-2" data-name="Layer 1"><path class="cls-1" d="M97,153.74q.08-6.33.08-12.19V120.66q0-6-.16-13.85c-.1-5.23-.26-10.47-.47-15.75q-7.6,0-14.88.39T67,92.64a41.72,41.72,0,0,0,1-9,28.91,28.91,0,0,0-.32-4.2c-.21-1.42-.42-3-.63-4.82q11.86,1.11,23.66,1.26t23.66.16q11.4,0,23.27-.16,11.1-.14,22.77-1.14a80.23,80.23,0,1,0-63.46,84.09C96.9,157.13,96.94,155.44,97,153.74Z"/><path class="cls-1" d="M147.37,91.45q-7.27-.39-14.87-.39-.33,5.22-.4,12T132,116.54v8.55q0,8.73.07,16.46a80.16,80.16,0,0,0,27.53-49.13Q153.5,91.81,147.37,91.45Z"/></g></g>
+                    </svg>
+                    &nbsp; CryptoTrade
+                </a>
+            </li>
+            <li>
+                <a href="#page2">Currencies</a>
+            </li>
+            <li>
+                <a href="#page3">Statistics</a>
+            </li>
+            <li>
+                <a href="#page4">Testimonials</a>
+            </li>
+            <li>
+                <a href="#page5">About</a>
+            </li>
+            <li>
+                <a href="#page6">Contact</a>
+            </li>
+        </ul>
+
+        <!--Left menu for mobile-->
+        <ul class="smallmenu">
+            <li>
+                <a href="#page1" id="homelink">
+                    <svg class="logosvg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160.33 160.54">
+                        <g id="Layer_2" data-name="Layer 2"><g id="Layer_1-2" data-name="Layer 1"><path class="cls-1" d="M97,153.74q.08-6.33.08-12.19V120.66q0-6-.16-13.85c-.1-5.23-.26-10.47-.47-15.75q-7.6,0-14.88.39T67,92.64a41.72,41.72,0,0,0,1-9,28.91,28.91,0,0,0-.32-4.2c-.21-1.42-.42-3-.63-4.82q11.86,1.11,23.66,1.26t23.66.16q11.4,0,23.27-.16,11.1-.14,22.77-1.14a80.23,80.23,0,1,0-63.46,84.09C96.9,157.13,96.94,155.44,97,153.74Z"/><path class="cls-1" d="M147.37,91.45q-7.27-.39-14.87-.39-.33,5.22-.4,12T132,116.54v8.55q0,8.73.07,16.46a80.16,80.16,0,0,0,27.53-49.13Q153.5,91.81,147.37,91.45Z"/></g></g>
+                    </svg>
+                    &nbsp; CryptoTrade
+                </a>
+            </li>
+        </ul>
+
+        <!--Right menu for desktop-->
+        <ul class="largemenu">
+            <li>
+                <a href="#">
+                    <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 0 24 24" width="24px" fill="#000000">
+                        <path d="M0 0h24v24H0V0z" fill="none"/><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zM7.07 18.28c.43-.9 3.05-1.78 4.93-1.78s4.51.88 4.93 1.78C15.57 19.36 13.86 20 12 20s-3.57-.64-4.93-1.72zm11.29-1.45c-1.43-1.74-4.9-2.33-6.36-2.33s-4.93.59-6.36 2.33C4.62 15.49 4 13.82 4 12c0-4.41 3.59-8 8-8s8 3.59 8 8c0 1.82-.62 3.49-1.64 4.83zM12 6c-1.94 0-3.5 1.56-3.5 3.5S10.06 13 12 13s3.5-1.56 3.5-3.5S13.94 6 12 6zm0 5c-.83 0-1.5-.67-1.5-1.5S11.17 8 12 8s1.5.67 1.5 1.5S12.83 11 12 11z"/>
+                    </svg>
+                </a>
+            </li>
+            <li>
+                <form name="searchbar" action="#">
+                    <input id="find" type="search" name="search" value="&ensp;Search..." class="searchbox">
+                </form>
+            </li>
+        </ul>
+
+        <!--Right menu for mobile-->
+        <ul class="smallmenu">
+            <li>
+                <a href="#">
+                    <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 0 24 24" width="24px" fill="#000000">
+                        <path d="M0 0h24v24H0V0z" fill="none"/><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zM7.07 18.28c.43-.9 3.05-1.78 4.93-1.78s4.51.88 4.93 1.78C15.57 19.36 13.86 20 12 20s-3.57-.64-4.93-1.72zm11.29-1.45c-1.43-1.74-4.9-2.33-6.36-2.33s-4.93.59-6.36 2.33C4.62 15.49 4 13.82 4 12c0-4.41 3.59-8 8-8s8 3.59 8 8c0 1.82-.62 3.49-1.64 4.83zM12 6c-1.94 0-3.5 1.56-3.5 3.5S10.06 13 12 13s3.5-1.56 3.5-3.5S13.94 6 12 6zm0 5c-.83 0-1.5-.67-1.5-1.5S11.17 8 12 8s1.5.67 1.5 1.5S12.83 11 12 11z"/>
+                    </svg>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 0 24 24" width="24px" fill="#000000">
+                        <path d="M0 0h24v24H0V0z" fill="none"/><path d="M15.5 14h-.79l-.28-.27C15.41 12.59 16 11.11 16 9.5 16 5.91 13.09 3 9.5 3S3 5.91 3 9.5 5.91 16 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"/>
+                    </svg>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 0 24 24" width="24px" fill="#000000">
+                        <path d="M0 0h24v24H0V0z" fill="none"/><path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"/>
+                    </svg>
+                </a>
+            </li>
+        </ul>
+    </nav>
+    <!--Navbar end-->
+
+    <!--Link to Top-->
+    <div id="topticket">
+        <a href="#page1">Top</a>
+    </div>
+    <!--Link to Top end-->
+
+
+    <!--Header (Page 1)-->
+    <header id="page1" class="pages">
+        <video id="headervid" autoplay muted loop>
+            <source src="/imgs/blue.mp4" type="video/mp4">
+        </video>
+        <h1 class="maintitle">Welcome to CryptoTrade</h1>
+    </header>
+    <!--Header (Page 1) end-->
+
+    <!--Currencies (Page 2)-->
+    <section id="page2" class="pages">
+        <h2 class="titles">Currencies</h2>
+        <section class="container">
+            <article id="bitcoin" class="currcards">
+                <img src="/imgs/svg/bitcoin_gold.svg" alt="Bitcoin icon">
+                <h3>Bitcoin</h3>
+                <p>Bitcoin (₿) is a decentralized digital currency, that can be sent from user to user on the peer-to-peer bitcoin network without the need for intermediaries.</p>
+            </article>
+            <article id="bitcoin2" class="currcards">
+                <img src="/imgs/svg/ethereum_gold.svg" alt="Ethereum icon">
+                <h3>Ethereum</h3>
+                <p>Ethereum is a decentralized, open-source blockchain with smart contract functionality. Ether (ETH or Ξ) is the native cryptocurrency of the platform.</p>
+            </article>
+            <article id="bitcoin3" class="currcards">
+                <img src="/imgs/svg/ripple_gold.svg" alt="Ripple icon">
+                <h3>Ripple</h3>
+                <p>Ripple is a real-time gross settlement system, currency exchange and remittance network created by Ripple Labs Inc., a US-based technology company.</p>
+            </article>
+            <article id="bitcoin4" class="currcards">
+                <img src="/imgs/svg/litecoin_gold.svg" alt="Litecoin icon">
+                <h3>Litecoin</h3>
+                <p>Litecoin was an early bitcoin spinoff or altcoin, starting in October 2011. In technical details, Litecoin is nearly identical to Bitcoin.</p>
+            </article>
+        </section>
+    </section>
+    <!--Currencies (Page 2) end-->
+
+    <!--Graphs (Page 3)-->
+    <section id="page3" class="pages">
+        <h2 class="titles">Statistics</h2>
+        <section class="container">
+            <article id="graph1" class="graphcards">
+                <h3>Bitcoin (BTC) Value</h3>
+                <figure class="graph_containers">
+                    <img src="/imgs/graph_bitcoin.png" alt="Bitcoin stats" class="pics">
+                </figure>
+                <p>The current value of Bitcoin, as documented during the month of December, 2021.</p>
+            </article>
+            <article id="graph2" class="graphcards">
+                <h3>Ethereum (ETH) Value</h3>
+                <figure class="graph_containers">
+                    <img src="/imgs/graph_ethereum.png" alt="Ethereum stats" class="pics">
+                </figure>
+                <p>The current value of Ethereum, as documented during the month of December, 2021.</p>
+            </article>
+        </section>
+    </section>
+    <!--Graphs (Page 3) end-->
+
+    <!--Testimonials (Page 4)-->
+    <section id="page4" class="pages">
+        <h2 class="titles">Testimonials</h2>
+        <section class="container tes_container">
+            <article class="tescards">
+                <img src="/imgs/icon_woman.png" alt="Customer image" class="tes_icons">
+                <p>"Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi nemo voluptas tempora ullam quas labore nisi, culpa voluptatum vel aliquid."</p>
+            </article>
+            <article class="tescards">
+                <img src="/imgs/icon_man.png" alt="Customer image" class="tes_icons">
+                <p>"Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque sit nam sed perspiciatis ab dignissimos numquam doloremque fuga pariatur quos."</p>
+            </article>
+        </section>
+    </section>
+    <!--Testimonials (Page 4) end-->
+
+    <!--About (Page 5)-->
+    <section id="page5" class="pages">
+        <h2 class="titles">About us</h2>
+        <section class="container about_container">
+            <article class="abouttext">
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Et in beatae odit ea commodi dicta soluta aspernatur maiores facilis deserunt.
+                </p>
+                <p>
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Distinctio magnam deleniti sunt dolor pariatur itaque magni sit ducimus nulla accusamus corporis autem quas, minus saepe consequatur provident esse voluptatum id?
+                </p>
+            </article>
+        </section>
+    </section>
+    <!--About (Page 5) end-->
+
+    <!--Contact (Page 6)-->
+    <section id="page6" class="pages">
+        <h2 class="titles">We'd love to hear from you!</h2>
+        <section class="container contact_container">
+            <form name="contactinfo" action="#" class="form_style">
+                <input type="text" name="fname" value="&ensp;Name" class="boxes">
+                <input type="email" name="email" value="&ensp;e-Mail" class="boxes">
+                <input type="tel" name="phone" value="&ensp;Phone" class="boxes">
+                <textarea name="msg" class="boxes textbox">&ensp;Your message:</textarea>
+                <input type="checkbox" name="newsletter"> Send me the newsletter
+                <input type="submit" name="subbtn" value="Send My Message" class="button">
+            </form>
+            <aside class="location">
+                <figure class="map_container">
+                    <img src="/imgs/map.png" alt="Our location on map" class="pics">
+                </figure>
+                <p>123 Rhodes rd. Rhode Island</p>
+                <p>050-1234567</p>
+                <p>support@ct.com</p>
+            </aside>
+        </section>
+    </section>
+    <!--Contact (Page 6) end-->
+
+    <!--Progress bar-->
+    <section id="progressbar">
+        <figure>
+            <img src="/imgs/Ripple-1s-200px.gif" alt="Loading bar">
+        </figure>
+    </section>
+    <!--Progress bar end-->
+
+    <!--Footer-->
+    <footer>
+        <p>
+            Video by <a href="https://pixabay.com/users/motionstock-13298494/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=27726" class="footerlink">motionstock</a> from <a href="https://pixabay.com/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=27726" class="footerlink">Pixabay</a>
+        </p>
+    </footer>
+    <!--Footer end-->
+
+</body>
+</html>
